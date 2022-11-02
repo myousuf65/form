@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <title>My Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="subcontainer">
+            <form action="#" method="post">
+                <div class="input_block">
+                    <label for="name">Username</label>
+                    <input name="username"type="text" class="input">
+                </div>
+                <div class="input_block">
+                    <label for="password">Password</label>
+                    <input name="password" type="password" class="input">
+                </div>
+                <div class="input_block">
+                    <label for="text_label">Input Text Label</label>
+                    <input name="taxt_label" type="text" class="input">
+                </div>
+                <div class="input_block">
+                    <input name="remember_me"type="checkbox">
+                    <label for="remember_me">Rememeber Me</label>
+                </div>
+
+                <div class="input_block">
+                    <input type="radio" name="selection1" id="sel_1">
+                    <label for="selection1">Radio Selection 1</label>
+                    <br>
+                    <input type="radio" name="selection2" id="sel_2">
+                    <label for="selection2">Radio Selection 2</label>
+                    <br>
+                    <input type="radio" name="selection3" id="sel_3">
+                    <label for="selection1">Radio Selection 3</label>
+                </div>
+
+                <div class="input_block">
+                    <label for="drop-down">Dropdown Titles</label>
+                    <select name="drop-down" id="drop-down" class="input">
+                        <option value="Javascript">Javascript</option>
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                    </select>
+                </div>
+                <input class="input_block" id="submit" type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
